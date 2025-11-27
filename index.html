@@ -1,1 +1,125 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>🟢⚽ BetPuan Giriş 2025 🎁💰 Lisanlı Bahis, Casino ve Yüksek Bonus Fırsatları!</title>
+  <meta name="description" content="Yasalara ve reklam platformu kurallarına uygun, yaş doğrulama içeren örnek yönlendirme sayfası." />
+  <style>
+    :root {font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;color-scheme: light;}
+    body {margin:0;background:#f6f7fb;display:flex;min-height:100vh;align-items:center;justify-content:center;}
+    .card {max-width:880px;width:100%;background:white;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,0.08);padding:34px;}
 
+    /* HEADER */
+    header {text-align:center;margin-bottom:28px;}
+    header .logo {width:80px;height:80px;border-radius:14px;background:linear-gradient(135deg,#4f46e5,#06b6d4);display:flex;align-items:center;justify-content:center;margin:0 auto 12px;color:white;font-weight:700;font-size:1.5rem;}
+    header h1 {margin:0;font-size:1.8rem;color:#0f172a;}
+    header p {color:#475569;font-size:0.95rem;margin-top:6px;}
+
+    /* BUTTON SECTION AT TOP */
+    .cta-top {display:flex;gap:12px;justify-content:center;margin:24px 0;flex-wrap:wrap;}
+    .btn {padding:14px 20px;border-radius:10px;font-weight:700;text-decoration:none;text-align:center;display:inline-block;}
+    .btn-primary {background:#7EAF31;color:white;}
+    .btn-secondary {background:transparent;border:2px solid #e2e8f0;color:#0f172a;}
+
+    /* CONTENT */
+    .info-section {background:#fbfdff;padding:22px;border-radius:12px;}
+    .info-section h2 {margin-top:0;color:#0f172a;}
+    .info-section p {color:#334155;line-height:1.55;}
+    ul li {color:#475569;margin-bottom:6px;}
+
+    footer {margin-top:22px;text-align:center;color:#64748b;font-size:0.85rem;}
+    .badge {background:#eef2ff;padding:6px 12px;border-radius:999px;font-weight:600;display:inline-block;}
+
+    /* MODAL */
+    .modal {position:fixed;inset:0;display:grid;place-items:center;background:rgba(2,6,23,0.6)}
+    .modal .inner {background:white;padding:24px;border-radius:14px;max-width:420px;width:92%;box-shadow:0 10px 40px rgba(2,6,23,0.35)}
+    .small {font-size:0.9rem;color:#475569}
+    @media (max-width:600px){header .logo img{width:180px !important;height:auto;}}
+  header .logo img{width:220px;height:auto;}
+</style>
+</head>
+<body>
+
+<div class="card" role="main">
+  <header>
+    <div class="logo" style="background:none;padding:0;width:auto;height:auto;">
+  <img src="https://raw.githubusercontent.com/betseogalaxi/m/main/logo.png" alt="BetPuan Logo" style="width:220px;height:auto;" />
+</div>
+    <h1>BetPuan Bilgilendirici Giriş</h1>
+    <p>Bu sayfa, kullanıcıların bilinçli yönlendirilmesi amacıyla hazırlanmıştır.</p>
+  </header>
+
+  <div class="cta-top">
+    <a id="gotoBtn" class="btn btn-primary" href="https://sshortly5.com/9ca3b2b">BetPuan Lisanslı Giriş</a>
+    <a id="moreBtn" class="btn btn-secondary" href="https://sshortly5.com/9ca3b2b">Detaylı Bilgi</a>
+  </div>
+
+  <section class="info-section">
+    <h2>Bilgilendirme & Güvenlik</h2>
+    <p>BetPuan yönlendirme sayfası, yaş doğrulaması ve bilinçli oyun prensipleri hakkında temel bilgiler sunar. Kullanıcıların yönlendirmeye geçmeden önce yasal gereksinimleri gözden geçirmesi önemlidir.</p>
+
+    <h3>Bilmeniz Gerekenler</h3>
+    <ul>
+      <li>Yasal yaş sınırı: 18+ kullanıcılar içindir.</li>
+      <li>Sorumlu oyun kurallarına uymanız önerilir.</li>
+      <li>Kişisel veriler, hedef site tarafından işlenir.</li>
+    </ul>
+
+    <img src="https://raw.githubusercontent.com/betseogalaxi/m/main/350x50.gif" alt="info gif" style="max-width:100%;margin-top:14px;border-radius:8px;">
+  </section>
+
+  <footer>
+    <div style="margin-top:12px"><span class="badge">Sorumlu Oyun</span></div>
+    <div style="margin-top:8px">Hedef sitedeki kullanım şartları ve gizlilik dokümanlarını inceleyin.</div>
+  </footer>
+</div>
+
+<div id="ageModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+  <div class="inner">
+    <h2 id="ageTitle">Yaş Doğrulaması</h2>
+    <p class="small">Devam etmek için 18 yaşından büyük olduğunuzu onaylamanız gerekmektedir.</p>
+    <div style="display:flex;gap:10px;margin-top:12px">
+      <button id="confirmAge" class="btn btn-primary">18+ Onaylıyorum</button>
+      <button id="denyAge" class="btn btn-secondary">Onaylamıyorum</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('ageModal');
+  const confirm = document.getElementById('confirmAge');
+  const deny = document.getElementById('denyAge');
+  const gotoBtn = document.getElementById('gotoBtn');
+
+  function hideModal(){ modal.style.display='none'; }
+  function showModal(){ modal.style.display='grid'; }
+
+  showModal();
+
+  confirm.addEventListener('click', ()=>{
+    
+    hideModal();
+  });
+  deny.addEventListener('click', ()=>{
+    alert('Devam etmek için yaş doğrulaması gereklidir.');
+  });
+
+  function addUTM(url){
+    try{
+      const u = new URL(url);
+      u.searchParams.set('utm_source','whitepage');
+      u.searchParams.set('utm_medium','referral');
+      return u.toString();
+    }catch(e){ return url }
+  }
+
+  gotoBtn.addEventListener('click', function(e){
+    const href = this.getAttribute('href');
+    if (href === 'https://sshortly5.com/9ca3b2b') return;
+    if(href && href.startsWith('http')) this.href = addUTM(href);
+  });
+</script>
+
+</body>
+</html>
